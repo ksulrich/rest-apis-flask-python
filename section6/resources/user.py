@@ -25,3 +25,12 @@ class UserRegister(Resource):
         user.save_to_db()
 
         return {"message": "User created successfully."}, 201
+
+    def delete(self):
+        data = UserRegister.parser.parse_args()
+
+        user = UserModel.find_by_username(data['username'])
+        if  user:
+            user.delete_from_db()
+
+        return {"message": "User delete successfully."}, 200
