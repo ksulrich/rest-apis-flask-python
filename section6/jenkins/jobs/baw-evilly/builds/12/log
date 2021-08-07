@@ -1,0 +1,29 @@
+Started by user [8mha:////4Kd8k/XBHp7sSo9OZDOFjSaunVPSb8FqP/2ZICRtmxXwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL97JzE0mIATk6BWMAAAAA=[0mKlaus Ulrich
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/baw-evilly
+Unpacking https://nodejs.org/dist/v16.6.1/node-v16.6.1-linux-x64.tar.gz to /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS on Jenkins
+$ /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS/bin/npm install -g npm install -g
+
+added 1 package, removed 3 packages, changed 20 packages, and audited 261 packages in 3s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[baw-evilly] $ /bin/bash /tmp/jenkins4464797325867876638.sh
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /var/jenkins_home/workspace/baw-evilly/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/var/jenkins_home/workspace/baw-evilly/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/jenkins_home/.npm/_logs/2021-08-03T16_04_08_011Z-debug.log
+/tmp/jenkins4464797325867876638.sh: line 4: gulp: command not found
+java 9.0.4
+Java(TM) SE Runtime Environment (build 9.0.4+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.4+11, mixed mode)
+v16.6.1
+Finished: SUCCESS

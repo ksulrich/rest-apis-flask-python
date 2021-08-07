@@ -1,0 +1,150 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.51">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _auth</name>
+      <duration>0.014</duration>
+      <timestamp>2021-08-07T15:43:58.313Z</timestamp>
+      <id>e1dbd0d5-a097-43f6-9092-72135617b58d</id>
+      <time>0.014</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.014</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.014</duration>
+          <className>Rest</className>
+          <testName>Body matches string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _item_test</name>
+      <duration>0.015</duration>
+      <timestamp>2021-08-07T15:43:58.313Z</timestamp>
+      <id>f8f246ea-8b82-4c7a-982e-55b6bf1d6f9b</id>
+      <time>0.015</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.015</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _item_test</name>
+      <duration>0.012</duration>
+      <timestamp>2021-08-07T15:43:58.313Z</timestamp>
+      <id>7ae524e3-ab69-422f-b882-97d703445218</id>
+      <time>0.012</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.012</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.015</duration>
+      <timestamp>2021-08-07T15:43:58.313Z</timestamp>
+      <id>5e7aea4a-1295-4d1f-a16f-2ca096ec78c8</id>
+      <time>0.015</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.015</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.011</duration>
+      <timestamp>2021-08-07T15:43:58.313Z</timestamp>
+      <id>b0f0b244-90ca-4662-a1ba-a77886ed4eb0</id>
+      <time>0.011</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+        Failed 1 times.
+        Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.
+        Collection name: REST.
+        Request name: section6 / /store/my_store.
+        Test description: Status code is 200.
+        Error message: expected response to have status code 201 but got 200.
+        Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:9).
+      </errorStackTrace>
+          <errorDetails>expected response to have status code 201 but got 200</errorDetails>
+          <failedSince>35</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.014</duration>
+      <timestamp>2021-08-07T15:43:58.313Z</timestamp>
+      <id>6f2f3782-3f6d-4ce2-add3-fe6ccec57382</id>
+      <time>0.014</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.014</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+        Failed 1 times.
+        Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.
+        Collection name: REST.
+        Request name: section6 / /store/my_store.
+        Test description: Status code is 200.
+        Error message: expected response to have status code 201 but got 200.
+        Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:10).
+      </errorStackTrace>
+          <errorDetails>expected response to have status code 201 but got 200</errorDetails>
+          <failedSince>35</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.081</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,12 @@
+commit 071c6cac6c5feac369b39bd473dda791241f899d
+tree 77a7ba9dc6f74e3d2a639159475aa033e4f30244
+parent f081ab102bb395f24428f93be838fff0b68b3108
+author Klaus Ulrich <klaus.ulrich@de.ibm.com> 2021-08-07 18:08:40 +0200
+committer Klaus Ulrich <klaus.ulrich@de.ibm.com> 2021-08-07 18:08:40 +0200
+
+    New collection sequence
+
+
+:100644 100644 b72d0d774948d19735722c96632c76ef9b33ebfc 6a8dbe6625951c9e86f5502984327cdf677be227 M	section6/REST.postman_collection.json
+:100644 100644 30b7fe71333052b11795a68616fb11e98ac94998 e8a5479333618b634cd944571f60f0d37a8237ed M	section6/models/user.py
+:100644 100644 759e00306327e9ab46136305d9702602d16ae68c 8929f4126410ac07061d3ec145dbf016b12dab56 M	section6/resources/user.py

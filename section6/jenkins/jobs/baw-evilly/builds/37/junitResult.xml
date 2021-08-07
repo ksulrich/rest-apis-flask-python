@@ -1,0 +1,169 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.51">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _auth</name>
+      <stderr>Iteration: 0
+
+---
+testScriptError: Unexpected token &apos;&lt;&apos; at 1:1
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+^
+---
+</stderr>
+      <duration>0.031</duration>
+      <timestamp>2021-08-07T15:07:53.949Z</timestamp>
+      <id>518eb0e9-34d6-4ad7-91a9-5964bec2693f</id>
+      <time>0.031</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.031</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+        Failed 1 times.
+        Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.
+        Collection name: REST.
+        Request name: section6 / /auth.
+        Test description: Status code is 200.
+        Error message: expected response to have status code 200 but got 500.
+        Stacktrace: AssertionError: expected response to have status code 200 but got 500
+   at Object.eval sandbox-script.js:1:2).
+      </errorStackTrace>
+          <errorDetails>expected response to have status code 200 but got 500</errorDetails>
+          <failedSince>35</failedSince>
+        </case>
+        <case>
+          <duration>0.031</duration>
+          <className>Rest</className>
+          <testName>Body matches string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _item_test</name>
+      <duration>0.026</duration>
+      <timestamp>2021-08-07T15:07:53.949Z</timestamp>
+      <id>36688b3e-5a6d-4a37-8923-d9f0b2300424</id>
+      <time>0.026</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.026</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _item_test</name>
+      <duration>0.017</duration>
+      <timestamp>2021-08-07T15:07:53.949Z</timestamp>
+      <id>d71eeeb3-c4f7-44e7-a90b-8d2e230eeab3</id>
+      <time>0.017</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.017</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.015</duration>
+      <timestamp>2021-08-07T15:07:53.949Z</timestamp>
+      <id>bebc1cf3-c146-4782-93fd-2884e00a1425</id>
+      <time>0.015</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.015</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+        Failed 1 times.
+        Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.
+        Collection name: REST.
+        Request name: section6 / /store/my_store.
+        Test description: Status code is 200.
+        Error message: expected response to have status code 201 but got 404.
+        Stacktrace: AssertionError: expected response to have status code 201 but got 404
+   at Object.eval sandbox-script.js:1:8).
+      </errorStackTrace>
+          <errorDetails>expected response to have status code 201 but got 404</errorDetails>
+          <failedSince>35</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.018</duration>
+      <timestamp>2021-08-07T15:07:53.949Z</timestamp>
+      <id>f73e1897-991e-410e-a870-2ef332d6efe1</id>
+      <time>0.018</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.018</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.022</duration>
+      <timestamp>2021-08-07T15:07:53.949Z</timestamp>
+      <id>ecaf7490-fa5f-4558-96fc-481d044c8838</id>
+      <time>0.022</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.022</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+        Failed 1 times.
+        Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.
+        Collection name: REST.
+        Request name: section6 / /store/my_store.
+        Test description: Status code is 200.
+        Error message: expected response to have status code 201 but got 200.
+        Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:10).
+      </errorStackTrace>
+          <errorDetails>expected response to have status code 201 but got 200</errorDetails>
+          <failedSince>35</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.12900001</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

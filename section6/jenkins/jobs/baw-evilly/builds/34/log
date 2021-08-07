@@ -1,0 +1,144 @@
+Started by user [8mha:////4Kd8k/XBHp7sSo9OZDOFjSaunVPSb8FqP/2ZICRtmxXwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL97JzE0mIATk6BWMAAAAA=[0mKlaus Ulrich
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/baw-evilly
+The recommended git tool is: NONE
+using credential ebfdf3e0-0004-4d0f-bd92-6eecc5e30db8
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/baw-evilly/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ksulrich/rest-apis-flask-python.git # timeout=10
+Fetching upstream changes from git@github.com:ksulrich/rest-apis-flask-python.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:ksulrich/rest-apis-flask-python.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 06e496251e9f45da629a41b215eb9b1ec92bf136 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 06e496251e9f45da629a41b215eb9b1ec92bf136 # timeout=10
+Commit message: "Improve things"
+ > git rev-list --no-walk 06e496251e9f45da629a41b215eb9b1ec92bf136 # timeout=10
+[baw-evilly] $ /bin/bash /tmp/jenkins9125254820800050807.sh
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 127 packages, and audited 128 packages in 8s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Install newman-reporter-htmlextra
+npm WARN deprecated gulp-header@1.8.12: Removed event-stream from gulp-header
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+
+added 127 packages, changed 259 packages, and audited 387 packages in 13s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+DONE
+Java Version is: java 9.0.4
+Java(TM) SE Runtime Environment (build 9.0.4+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.4+11, mixed mode)
+Node Version is: v16.6.1
+Newman Version is: 5.2.4
+newman
+
+REST
+
+❏ section6
+↳ /register
+  POST http://9.145.90.198:5000/register [400 BAD REQUEST, 217B, 121ms]
+
+↳ /auth
+  POST http://9.145.90.198:5000/auth [500 INTERNAL SERVER ERROR, 18.29KB, 24ms]
+  1. Status code is 200
+  ✓  Body matches string
+  2⠄ JSONError in test-script
+
+↳ /items
+  GET http://9.145.90.198:5000/items [200 OK, 166B, 13ms]
+
+↳ /item/test
+  GET http://9.145.90.198:5000/item/test [500 INTERNAL SERVER ERROR, 26.54KB, 23ms]
+
+↳ /item/test
+  POST http://9.145.90.198:5000/item/test [201 CREATED, 194B, 23ms]
+  ✓  Status code is 200
+
+↳ /item/test
+  DELETE http://9.145.90.198:5000/item/test [200 OK, 181B, 17ms]
+  ✓  Status code is 200
+
+↳ /stores
+  GET http://9.145.90.198:5000/stores [200 OK, 167B, 14ms]
+
+↳ /store/my_store
+  GET http://9.145.90.198:5000/store/my_store [404 NOT FOUND, 190B, 13ms]
+  3. Status code is 200
+
+↳ /store/my_store
+  POST http://9.145.90.198:5000/store/my_store [201 CREATED, 195B, 23ms]
+  ✓  Status code is 200
+
+↳ /store/my_store
+  DELETE http://9.145.90.198:5000/store/my_store [200 OK, 181B, 19ms]
+  4. Status code is 200
+
+┌─────────────────────────┬───────────────────┬───────────────────┐
+│                         │          executed │            failed │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              iterations │                 1 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│                requests │                10 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│            test-scripts │                 6 │                 1 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│      prerequest-scripts │                 0 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              assertions │                 7 │                 3 │
+├─────────────────────────┴───────────────────┴───────────────────┤
+│ total run duration: 606ms                                       │
+├─────────────────────────────────────────────────────────────────┤
+│ total data received: 44.74KB (approx)                           │
+├─────────────────────────────────────────────────────────────────┤
+│ average response time: 29ms [min: 13ms, max: 121ms, s.d.: 30ms] │
+└─────────────────────────────────────────────────────────────────┘
+
+  #  failure         detail                                                         
+                                                                                    
+ 1.  AssertionError  Status code is 200                                             
+                     expected response to have status code 200 but got 500          
+                     at assertion:0 in test-script                                  
+                     inside "section6 / /auth"                                      
+                                                                                    
+ 2.  JSONError                                                                      
+                     Unexpected token '<' at 1:1                                    
+                     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                     ^                                                              
+                     at test-script                                                 
+                     inside "section6 / /auth"                                      
+                                                                                    
+ 3.  AssertionError  Status code is 200                                             
+                     expected response to have status code 201 but got 404          
+                     at assertion:0 in test-script                                  
+                     inside "section6 / /store/my_store"                            
+                                                                                    
+ 4.  AssertionError  Status code is 200                                             
+                     expected response to have status code 201 but got 200          
+                     at assertion:0 in test-script                                  
+                     inside "section6 / /store/my_store"                            
+Build step 'Execute shell' marked build as failure
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/baw-evilly to /var/jenkins_home/jobs/baw-evilly/htmlreports/HTML_20Report
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/baw-evilly to /var/jenkins_home/jobs/baw-evilly/htmlreports/HTML_20Report
+Finished: FAILURE

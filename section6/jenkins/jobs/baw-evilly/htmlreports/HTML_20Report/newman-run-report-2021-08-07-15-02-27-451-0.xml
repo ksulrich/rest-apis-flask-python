@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="REST" tests="10" time="0.279">
+  <testsuite name="section6 / /register" id="30650009-e2a8-43a9-9069-2a7b4975d4f2" timestamp="2021-08-07T15:02:26.510Z" tests="0" failures="0" errors="0" time="0.098"/>
+  <testsuite name="section6 / /auth" id="d4daeaba-5ca2-4ea0-97b8-c736bb067f33" timestamp="2021-08-07T15:02:26.510Z" tests="2" failures="1" errors="1" time="0.022">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Unexpected token '<' at 1:1
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+^
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.022" classname="Rest">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.]]>
+        <![CDATA[Collection name: REST.]]>
+        <![CDATA[Request name: section6 / /auth.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 500
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Body matches string" time="0.022" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /items" id="3a615d99-f1a7-49ea-9a99-12c00a76ee5d" timestamp="2021-08-07T15:02:26.510Z" tests="0" failures="0" errors="0" time="0.015"/>
+  <testsuite name="section6 / /item/test" id="9a46532a-ec81-4d04-8ef9-852126ba8b66" timestamp="2021-08-07T15:02:26.510Z" tests="0" failures="0" errors="0" time="0.027"/>
+  <testsuite name="section6 / /item/test" id="18cd45b8-f9e4-4f80-887c-9a2f5fa47314" timestamp="2021-08-07T15:02:26.510Z" tests="1" failures="0" errors="0" time="0.024">
+    <testcase name="Status code is 200" time="0.024" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /item/test" id="5149e838-b6ca-424e-bb0a-cb4a3d6f2af1" timestamp="2021-08-07T15:02:26.510Z" tests="1" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 200" time="0.019" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /stores" id="404e80ea-f2b2-4cd2-ab60-c74c84254dbb" timestamp="2021-08-07T15:02:26.510Z" tests="0" failures="0" errors="0" time="0.012"/>
+  <testsuite name="section6 / /store/my_store" id="d3e113c3-1a48-41b9-88b7-b1ec109b88b5" timestamp="2021-08-07T15:02:26.510Z" tests="1" failures="1" errors="0" time="0.013">
+    <testcase name="Status code is 200" time="0.013" classname="Rest">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.]]>
+        <![CDATA[Collection name: REST.]]>
+        <![CDATA[Request name: section6 / /store/my_store.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 404
+   at Object.eval sandbox-script.js:1:8).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="section6 / /store/my_store" id="b0465433-bd2c-413f-9c90-8d43a96c5583" timestamp="2021-08-07T15:02:26.510Z" tests="1" failures="0" errors="0" time="0.029">
+    <testcase name="Status code is 200" time="0.029" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /store/my_store" id="a469258e-9a7c-47e1-8c7a-e71fe6d3e7ea" timestamp="2021-08-07T15:02:26.510Z" tests="1" failures="1" errors="0" time="0.020">
+    <testcase name="Status code is 200" time="0.020" classname="Rest">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: cc44742b-8b1a-40c4-b867-e541dea7abe8.]]>
+        <![CDATA[Collection name: REST.]]>
+        <![CDATA[Request name: section6 / /store/my_store.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,322 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.51">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _register</name>
+      <duration>0.092</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>9c6ab18d-57da-4efc-83a4-29cf21b5544a</id>
+      <time>0.092</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.092</duration>
+          <className>Rest</className>
+          <testName>Status code is 201</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _register 400</name>
+      <duration>0.012</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>1114a437-17b8-4085-b5bf-a025e87d2444</id>
+      <time>0.012</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.012</duration>
+          <className>Rest</className>
+          <testName>Status code is 400</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _auth</name>
+      <duration>0.011</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>5dfaccf1-2002-432d-8418-271be4f54c1e</id>
+      <time>0.011</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>Body matches string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _items</name>
+      <duration>0.011</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>7c68b1e9-a418-4909-9d78-abb4277b8794</id>
+      <time>0.011</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>items is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _item_test</name>
+      <duration>0.015</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>63ae2c66-fe3d-44fc-8dab-d2248110846e</id>
+      <time>0.015</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.015</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _items has item</name>
+      <duration>0.009</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>7e1b9e7b-6d71-4f1f-afa6-89020c82b0f2</id>
+      <time>0.009</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.009</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>Rest</className>
+          <testName>Has item</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _item_test</name>
+      <duration>0.012</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>06939270-778c-43a6-acdb-0f2798b477c7</id>
+      <time>0.012</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.012</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _items empty list</name>
+      <duration>0.01</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>d4bbb5e7-639f-4da8-a191-53a40106c5f1</id>
+      <time>0.010</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.01</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.01</duration>
+          <className>Rest</className>
+          <testName>Your test name</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _stores</name>
+      <duration>0.009</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>a55dafe6-dea8-44ce-8993-8ab363da6f58</id>
+      <time>0.009</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.009</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>Rest</className>
+          <testName>Store is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.016</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>c78e1af9-270f-480f-97a9-5af41dc73ba7</id>
+      <time>0.016</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.016</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.011</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>389b9beb-e24e-4efc-8103-f6b29122fb29</id>
+      <time>0.011</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>Rest</className>
+          <testName>Get my_store</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _store_my_store</name>
+      <duration>0.014</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>f1134dbd-0ddd-4b28-aca4-e73eaf6c19ae</id>
+      <time>0.014</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.014</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _stores empty</name>
+      <duration>0.009</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>6c684c35-468a-47ab-b77a-18465914eed8</id>
+      <time>0.009</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.009</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>Rest</className>
+          <testName>Store is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/baw-evilly/newman/report.xml</file>
+      <name>section6 _ _register</name>
+      <duration>0.012</duration>
+      <timestamp>2021-08-07T16:11:20.277Z</timestamp>
+      <id>bfc72204-99c3-443e-ba8f-4687e98d348f</id>
+      <time>0.012</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.012</duration>
+          <className>Rest</className>
+          <testName>Status code is 200</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.243</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

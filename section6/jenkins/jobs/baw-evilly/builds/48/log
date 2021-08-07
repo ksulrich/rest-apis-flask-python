@@ -1,0 +1,146 @@
+Started by user [8mha:////4Kd8k/XBHp7sSo9OZDOFjSaunVPSb8FqP/2ZICRtmxXwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL97JzE0mIATk6BWMAAAAA=[0mKlaus Ulrich
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/baw-evilly
+The recommended git tool is: NONE
+using credential ebfdf3e0-0004-4d0f-bd92-6eecc5e30db8
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/baw-evilly/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ksulrich/rest-apis-flask-python.git # timeout=10
+Fetching upstream changes from git@github.com:ksulrich/rest-apis-flask-python.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:ksulrich/rest-apis-flask-python.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 071c6cac6c5feac369b39bd473dda791241f899d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 071c6cac6c5feac369b39bd473dda791241f899d # timeout=10
+Commit message: "New collection sequence"
+ > git rev-list --no-walk f081ab102bb395f24428f93be838fff0b68b3108 # timeout=10
+[baw-evilly] $ /bin/bash /tmp/jenkins12141122670226831371.sh
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 127 packages, and audited 128 packages in 7s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Install newman-reporter-htmlextra
+npm WARN deprecated gulp-header@1.8.12: Removed event-stream from gulp-header
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+
+added 127 packages, changed 259 packages, and audited 387 packages in 11s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+DONE
+Java Version is: java 9.0.4
+Java(TM) SE Runtime Environment (build 9.0.4+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.4+11, mixed mode)
+Node Version is: v16.6.1
+Newman Version is: 5.2.4
+newman
+
+REST
+Using htmlextra version 1.21.0
+
+❏ section6
+↳ /register
+  POST http://9.145.90.198:5000/register [201 CREATED, 198B, 11.2s]
+  ✓  Status code is 201
+
+↳ /register 400
+  POST http://9.145.90.198:5000/register [400 BAD REQUEST, 216B, 13ms]
+  ✓  Status code is 400
+
+↳ /auth
+  POST http://9.145.90.198:5000/auth [200 OK, 339B, 12ms]
+  ✓  Status code is 200
+  ✓  Body matches string
+
+↳ /items
+  GET http://9.145.90.198:5000/items [200 OK, 165B, 11ms]
+  ✓  Status code is 200
+  ✓  items is empty
+
+↳ /item/test
+  POST http://9.145.90.198:5000/item/test [201 CREATED, 193B, 19ms]
+  ✓  Status code is 200
+
+↳ /items has item
+  GET http://9.145.90.198:5000/items [200 OK, 246B, 13ms]
+  ✓  Status code is 200
+  ✓  Has item
+
+↳ /item/test
+  DELETE http://9.145.90.198:5000/item/test [200 OK, 180B, 12ms]
+  ✓  Status code is 200
+
+↳ /items empty list
+  GET http://9.145.90.198:5000/items [200 OK, 165B, 9ms]
+  ✓  Status code is 200
+  ✓  Your test name
+
+↳ /stores
+  GET http://9.145.90.198:5000/stores [200 OK, 166B, 10ms]
+  ✓  Status code is 200
+  ✓  Store is empty
+
+↳ /store/my_store
+  POST http://9.145.90.198:5000/store/my_store [201 CREATED, 194B, 19ms]
+  ✓  Status code is 200
+
+↳ /store/my_store
+  GET http://9.145.90.198:5000/store/my_store [200 OK, 189B, 11ms]
+  ✓  Status code is 200
+  ✓  Get my_store
+
+↳ /store/my_store
+  DELETE http://9.145.90.198:5000/store/my_store [200 OK, 180B, 15ms]
+  ✓  Status code is 200
+
+↳ /stores empty
+  GET http://9.145.90.198:5000/stores [200 OK, 166B, 10ms]
+  ✓  Status code is 200
+  ✓  Store is empty
+
+↳ /register
+  DELETE http://9.145.90.198:5000/register [200 OK, 192B, 14ms]
+  ✓  Status code is 200
+
+┌─────────────────────────┬───────────────────┬───────────────────┐
+│                         │          executed │            failed │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              iterations │                 1 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│                requests │                14 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│            test-scripts │                14 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│      prerequest-scripts │                 0 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              assertions │                21 │                 0 │
+├─────────────────────────┴───────────────────┴───────────────────┤
+│ total run duration: 11.8s                                       │
+├─────────────────────────────────────────────────────────────────┤
+│ total data received: 733B (approx)                              │
+├─────────────────────────────────────────────────────────────────┤
+│ average response time: 816ms [min: 9ms, max: 11.2s, s.d.: 2.8s] │
+└─────────────────────────────────────────────────────────────────┘
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/baw-evilly/newman to /var/jenkins_home/jobs/baw-evilly/htmlreports/HTML_20Report
+Recording test results
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

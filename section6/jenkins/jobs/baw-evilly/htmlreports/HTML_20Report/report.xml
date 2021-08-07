@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="REST" tests="14" time="0.243">
+  <testsuite name="section6 / /register" id="9c6ab18d-57da-4efc-83a4-29cf21b5544a" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.092">
+    <testcase name="Status code is 201" time="0.092" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /register 400" id="1114a437-17b8-4085-b5bf-a025e87d2444" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 400" time="0.012" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /auth" id="5dfaccf1-2002-432d-8418-271be4f54c1e" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.011">
+    <testcase name="Status code is 200" time="0.011" classname="Rest"/>
+    <testcase name="Body matches string" time="0.011" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /items" id="7c68b1e9-a418-4909-9d78-abb4277b8794" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.011">
+    <testcase name="Status code is 200" time="0.011" classname="Rest"/>
+    <testcase name="items is empty" time="0.011" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /item/test" id="63ae2c66-fe3d-44fc-8dab-d2248110846e" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.015">
+    <testcase name="Status code is 200" time="0.015" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /items has item" id="7e1b9e7b-6d71-4f1f-afa6-89020c82b0f2" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009" classname="Rest"/>
+    <testcase name="Has item" time="0.009" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /item/test" id="06939270-778c-43a6-acdb-0f2798b477c7" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /items empty list" id="d4bbb5e7-639f-4da8-a191-53a40106c5f1" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010" classname="Rest"/>
+    <testcase name="Your test name" time="0.010" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /stores" id="a55dafe6-dea8-44ce-8993-8ab363da6f58" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009" classname="Rest"/>
+    <testcase name="Store is empty" time="0.009" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /store/my_store" id="c78e1af9-270f-480f-97a9-5af41dc73ba7" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.016">
+    <testcase name="Status code is 200" time="0.016" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /store/my_store" id="389b9beb-e24e-4efc-8103-f6b29122fb29" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.011">
+    <testcase name="Status code is 200" time="0.011" classname="Rest"/>
+    <testcase name="Get my_store" time="0.011" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /store/my_store" id="f1134dbd-0ddd-4b28-aca4-e73eaf6c19ae" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.014">
+    <testcase name="Status code is 200" time="0.014" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /stores empty" id="6c684c35-468a-47ab-b77a-18465914eed8" timestamp="2021-08-07T16:11:20.277Z" tests="2" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009" classname="Rest"/>
+    <testcase name="Store is empty" time="0.009" classname="Rest"/>
+  </testsuite>
+  <testsuite name="section6 / /register" id="bfc72204-99c3-443e-ba8f-4687e98d348f" timestamp="2021-08-07T16:11:20.277Z" tests="1" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012" classname="Rest"/>
+  </testsuite>
+</testsuites>

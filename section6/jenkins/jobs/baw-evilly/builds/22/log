@@ -1,0 +1,257 @@
+Started by user [8mha:////4Kd8k/XBHp7sSo9OZDOFjSaunVPSb8FqP/2ZICRtmxXwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL97JzE0mIATk6BWMAAAAA=[0mKlaus Ulrich
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/baw-evilly
+The recommended git tool is: NONE
+using credential ebfdf3e0-0004-4d0f-bd92-6eecc5e30db8
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/baw-evilly/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ksulrich/rest-apis-flask-python.git # timeout=10
+Fetching upstream changes from git@github.com:ksulrich/rest-apis-flask-python.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:ksulrich/rest-apis-flask-python.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3bc65b4b1c6227c1f741ed340dd9395329e48a24 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3bc65b4b1c6227c1f741ed340dd9395329e48a24 # timeout=10
+Commit message: "add Postman export"
+ > git rev-list --no-walk 3bc65b4b1c6227c1f741ed340dd9395329e48a24 # timeout=10
+[baw-evilly] $ /bin/bash /tmp/jenkins7573830898935452511.sh
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 127 packages, and audited 128 packages in 6s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Install newman-reporter-htmlextra
+npm WARN deprecated gulp-header@1.8.12: Removed event-stream from gulp-header
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+
+added 127 packages, changed 259 packages, and audited 387 packages in 8s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+DONE
+Java Version is: java 9.0.4
+Java(TM) SE Runtime Environment (build 9.0.4+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.4+11, mixed mode)
+Node Version is: v16.6.1
+Newman Version is: 5.2.4
+newman
+
+REST
+
+❏ Chapter 4
+↳ /items
+  GET http://localhost:5000/items [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /item/klaus
+  GET http://localhost:5000/item/klaus [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /item/klaus
+  POST http://localhost:5000/item/klaus [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /item/roya
+  POST http://localhost:5000/item/roya [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /auth
+  POST http://localhost:5000/auth [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+❏ section6
+↳ /register
+  POST http://localhost:5000/register [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /auth
+  POST http://localhost:5000/auth [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+  8. Status code is 200
+  9. Body matches string
+ 10⠄ JSONError in test-script
+
+↳ /items
+  GET http://localhost:5000/items [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /item/test
+  GET http://localhost:5000/item/test [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /item/test
+  POST http://localhost:5000/item/test [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+ 14. Status code is 200
+
+↳ /item/test
+  DELETE http://localhost:5000/item/test [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /stores
+  GET http://localhost:5000/stores [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+
+↳ /store/my_store
+  GET http://localhost:5000/store/my_store [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+ 18. Status code is 200
+
+↳ /store/my_store
+  POST http://localhost:5000/store/my_store [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+ 20. Status code is 200
+
+↳ /store/my_store
+  DELETE http://localhost:5000/store/my_store [errored]
+     connect ECONNREFUSED 127.0.0.1:5000
+ 22. Status code is 200
+
+┌─────────────────────────┬──────────┬──────────┐
+│                         │ executed │   failed │
+├─────────────────────────┼──────────┼──────────┤
+│              iterations │        1 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│                requests │       15 │       15 │
+├─────────────────────────┼──────────┼──────────┤
+│            test-scripts │        5 │        1 │
+├─────────────────────────┼──────────┼──────────┤
+│      prerequest-scripts │        0 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│              assertions │        6 │        6 │
+├─────────────────────────┴──────────┴──────────┤
+│ total run duration: 460ms                     │
+├───────────────────────────────────────────────┤
+│ total data received: 0B (approx)              │
+└───────────────────────────────────────────────┘
+
+   #  failure         detail                                                                                                                                                                             
+                                                                                                                                                                                                         
+ 01.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "Chapter 4 / /items"                                                                                                                                                        
+                                                                                                                                                                                                         
+ 02.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "Chapter 4 / /item/klaus"                                                                                                                                                   
+                                                                                                                                                                                                         
+ 03.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "Chapter 4 / /item/klaus"                                                                                                                                                   
+                                                                                                                                                                                                         
+ 04.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "Chapter 4 / /item/roya"                                                                                                                                                    
+                                                                                                                                                                                                         
+ 05.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "Chapter 4 / /auth"                                                                                                                                                         
+                                                                                                                                                                                                         
+ 06.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /register"                                                                                                                                                      
+                                                                                                                                                                                                         
+ 07.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /auth"                                                                                                                                                          
+                                                                                                                                                                                                         
+ 08.  AssertionError  Status code is 200                                                                                                                                                                 
+                      expected { Object (id, _details, ...) } to have property 'code'                                                                                                                    
+                      at assertion:0 in test-script                                                                                                                                                      
+                      inside "section6 / /auth"                                                                                                                                                          
+                                                                                                                                                                                                         
+ 09.  AssertionError  Body matches string                                                                                                                                                                
+                      the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string 
+                      at assertion:1 in test-script                                                                                                                                                      
+                      inside "section6 / /auth"                                                                                                                                                          
+                                                                                                                                                                                                         
+ 10.  JSONError                                                                                                                                                                                          
+                      Unexpected token u in JSON at position 0                                                                                                                                           
+                      at test-script                                                                                                                                                                     
+                      inside "section6 / /auth"                                                                                                                                                          
+                                                                                                                                                                                                         
+ 11.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /items"                                                                                                                                                         
+                                                                                                                                                                                                         
+ 12.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /item/test"                                                                                                                                                     
+                                                                                                                                                                                                         
+ 13.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /item/test"                                                                                                                                                     
+                                                                                                                                                                                                         
+ 14.  AssertionError  Status code is 200                                                                                                                                                                 
+                      expected { Object (id, _details, ...) } to have property 'code'                                                                                                                    
+                      at assertion:0 in test-script                                                                                                                                                      
+                      inside "section6 / /item/test"                                                                                                                                                     
+                                                                                                                                                                                                         
+ 15.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /item/test"                                                                                                                                                     
+                                                                                                                                                                                                         
+ 16.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /stores"                                                                                                                                                        
+                                                                                                                                                                                                         
+ 17.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /store/my_store"                                                                                                                                                
+                                                                                                                                                                                                         
+ 18.  AssertionError  Status code is 200                                                                                                                                                                 
+                      expected { Object (id, _details, ...) } to have property 'code'                                                                                                                    
+                      at assertion:0 in test-script                                                                                                                                                      
+                      inside "section6 / /store/my_store"                                                                                                                                                
+                                                                                                                                                                                                         
+ 19.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /store/my_store"                                                                                                                                                
+                                                                                                                                                                                                         
+ 20.  AssertionError  Status code is 200                                                                                                                                                                 
+                      expected { Object (id, _details, ...) } to have property 'code'                                                                                                                    
+                      at assertion:0 in test-script                                                                                                                                                      
+                      inside "section6 / /store/my_store"                                                                                                                                                
+                                                                                                                                                                                                         
+ 21.  Error                                                                                                                                                                                              
+                      connect ECONNREFUSED 127.0.0.1:5000                                                                                                                                                
+                      at request                                                                                                                                                                         
+                      inside "section6 / /store/my_store"                                                                                                                                                
+                                                                                                                                                                                                         
+ 22.  AssertionError  Status code is 200                                                                                                                                                                 
+                      expected { Object (id, _details, ...) } to have property 'code'                                                                                                                    
+                      at assertion:0 in test-script                                                                                                                                                      
+                      inside "section6 / /store/my_store"                                                                                                                                                
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

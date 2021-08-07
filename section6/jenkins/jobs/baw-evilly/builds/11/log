@@ -1,0 +1,12 @@
+Started by user [8mha:////4Kd8k/XBHp7sSo9OZDOFjSaunVPSb8FqP/2ZICRtmxXwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL97JzE0mIATk6BWMAAAAA=[0mKlaus Ulrich
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/baw-evilly
+[baw-evilly] $ /bin/sh -xe /tmp/jenkins15986529913271658335.sh
++ java --version
+java 9.0.4
+Java(TM) SE Runtime Environment (build 9.0.4+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.4+11, mixed mode)
++ node --version
+/tmp/jenkins15986529913271658335.sh: 3: /tmp/jenkins15986529913271658335.sh: node: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
