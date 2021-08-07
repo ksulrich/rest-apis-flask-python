@@ -99,30 +99,6 @@
 				},
 				{
 					"name": "/item/test",
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "JWT {{access_token}}",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "{{url}}/item/test",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"item",
-								"test"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "/item/test",
 					"event": [
 						{
 							"listen": "test",
@@ -149,6 +125,30 @@
 							"mode": "raw",
 							"raw": "{\n    \"price\": 17.99,\n    \"store_id\": 1\n}"
 						},
+						"url": {
+							"raw": "{{url}}/item/test",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"item",
+								"test"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/item/test",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT {{access_token}}",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "{{url}}/item/test",
 							"host": [
