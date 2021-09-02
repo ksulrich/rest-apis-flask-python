@@ -20,8 +20,9 @@ docker run -d --name jenkins -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts-jdk
 
 * Login to <http://localhost:8080> as user `admin` and the displayed password
 * Install suggested plugins
+* Install NodeJS and JDK
 
-Copy jenkins configuration
+**Not needed** Copy jenkins configuration
 
 ```shell
 docker cp jenkins/config.xml jenkins:/var/jenkins_home/config.xml
@@ -33,7 +34,7 @@ Copy this job to jenkins
 docker cp jenkins/jobs/baw-evilly jenkins:/var/jenkins_home/jobs/baw-evilly
 ```
 
-Restart jenkins server
+Reload configuration or restart jenkins server
 
 ```shell
 docker stop jenkins
